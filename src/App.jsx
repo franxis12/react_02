@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom';
+import TipCalculator from './components/TipCalculator';
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
    <>
    <Routes>
-      <Route path="/" /*element={<Home />}*/ />
+      <Route path="/" element={<TipCalculator />} />
      </Routes>
    </>
   )
