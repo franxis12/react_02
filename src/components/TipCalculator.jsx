@@ -73,8 +73,8 @@ const TipCalculator = () => {
 )}
            <br/> 
 
-           <h6>Tax: {taxes * 100}</h6>
-           <h6>Tips :{tipPorcent}%</h6>
+           <h6>Tax: {taxes * 100}%</h6>
+           <h6>Tips :${(tipPorcent / 100) * total}</h6>
 
            <h2>Total: {finalPrice.toFixed(2)}</h2>
 
